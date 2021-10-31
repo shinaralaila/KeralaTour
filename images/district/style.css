@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+    max-width: 1080px;
+    display: block;
+    margin: auto;
+}
+
+header #logo {
+    float: left;
+    margin-left: 10px;
+}
+
+header #logo img {
+    width: 150px;
+}
+
+header nav {
+    width: 850px;
+    float: right:
+    margin-top: 30px;
+}
+
+header nav ul {
+    float: right;
+}
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    height: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

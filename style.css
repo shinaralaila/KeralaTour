@@ -194,3 +194,22 @@ ol{
 .sidebar-social a:hover i.fa-users { color:#FF0000 }
 .sidebar-social a:hover i.fa-restroom { color:#cb2027 }
 .sidebar-social a:hover i.fa-newspaper { color:#FF57AE }
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
